@@ -1,0 +1,78 @@
+DOKUMENTASI DAN PANDUAN INSTALASI WEBSITE CALF COFFEE
+=====================================================
+
+1. TENTANG PROYEK
+-----------------
+Website ini adalah landing page premium untuk brand kopi "Calf".
+Fitur utama meliputi:
+- Scrollytelling: Animasi urutan gambar kaleng kopi yang bergerak sesuai scroll.
+- Preloader: Layar loading dengan penghitung persentase.
+- Navigasi: Menu fullscreen dengan animasi.
+- Halaman Produk & Lokasi Toko: Menampilkan daftar produk dan lokasi cabang.
+- Teknologi: Next.js (App Router), Tailwind CSS v4, Framer Motion, Lenis Scroll.
+
+2. PERSYARATAN SISTEM (PREREQUISITES)
+-------------------------------------
+Sebelum memulai, pastikan komputer Anda telah terinstal:
+- Node.js (Versi 18 atau lebih baru). Cek dengan perintah: `node -v`
+- npm (Node Package Manager). Cek dengan perintah: `npm -v`
+- Git (Opsional, untuk manajemen source code).
+
+3. PANDUAN INSTALASI (CARA INSTALL)
+-----------------------------------
+Ikuti langkah-langkah berikut untuk menginstal proyek di komputer lokal Anda:
+
+Langkah 1: Buka Terminal / Command Prompt
+Arahkan ke folder dimana Anda menyimpan file proyek ini.
+Contoh:
+cd "d:\PRODUCT DIGITAL\SOURCE CODE\calf"
+
+Langkah 2: Instal Dependensi (Library)
+Jalankan perintah berikut untuk mengunduh semua library yang dibutuhkan (Next.js, React, Framer Motion, dll):
+
+npm install
+
+Tunggu hingga proses selesai. Pastikan koneksi internet stabil.
+
+4. CARA MENJALANKAN APLIKASI
+----------------------------
+
+Mode Pengembangan (Development):
+Untuk menjalankan website saat mengedit atau melihat perubahan secara langsung:
+
+npm run dev
+
+Setelah perintah dijalankan, buka browser dan akses: http://localhost:3000
+
+Mode Produksi (Production):
+Untuk melihat website dalam kondisi siap rilis (lebih cepat dan optimal):
+
+npm run build
+npm start
+
+5. STRUKTUR FILE PROYEK
+-----------------------
+Berikut adalah penjelasan singkat struktur folder penting:
+
+- /app              : Halaman-halaman website (Home, Product, Store Location).
+  - page.tsx        : Halaman Utama (Home).
+  - globals.css     : Konfigurasi styling global dan Tailwind CSS.
+- /components       : Komponen UI yang digunakan berulang (Navbar, SequenceScroll, Footer, dll).
+- /public           : File aset statis (Gambar, Icon, Folder Sequence).
+  - /sequence       : Kumpulan gambar untuk animasi scroll.
+  - /img            : Gambar produk dan aset lainnya.
+- /lib              : Fungsi utilitas tambahan (konfigurasi Lenis Scroll).
+
+6. TIPS PENGEMBANGAN
+--------------------
+- Mengganti Gambar Sequence: Ganti gambar di folder `public/sequence` dengan nama file yang berurutan (misal: ezgif-frame-001.jpg).
+- Mengganti Menu: Edit file `components/Navbar.tsx`.
+- Mengganti Teks Utama: Edit file `components/SequenceScroll.tsx` atau `app/page.tsx`.
+
+7. TROUBLESHOOTING (PEMECAHAN MASALAH)
+--------------------------------------
+- Error "Module not found": Coba hapus folder `node_modules` dan file `package-lock.json`, lalu jalankan `npm install` ulang.
+- Error Style tidak muncul: Pastikan `globals.css` terimpor dengan benar di `app/layout.tsx`.
+
+Terima kasih telah menggunakan layanan kami.
+Desain oleh Rizki Maulana.
