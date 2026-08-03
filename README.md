@@ -30,11 +30,6 @@ Rather than presenting products as a traditional e-commerce catalog, the experie
   <img src="./docs/preview.gif" width="100%" alt="Calf Coffee Preview"/>
 </p>
 
-```
-docs/
-└── preview.gif
-```
-
 ---
 
 # 🚀 Features
