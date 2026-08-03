@@ -1,37 +1,167 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# ☕ Calf Coffee
 
-First, run the development server:
+### A cinematic coffee experience built with Next.js, React 19, Framer Motion & Lenis.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+<p>
+  <img src="./docs/preview.gif" width="100%" alt="Calf Coffee Preview"/>
+</p>
+
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=nextdotjs)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-v4-38BDF8?style=for-the-badge&logo=tailwindcss)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animation-ff69b4?style=for-the-badge)
+![Lenis](https://img.shields.io/badge/Lenis-Smooth_Scroll-black?style=for-the-badge)
+
+</div>
+
+---
+
+# ✨ Overview
+
+Calf Coffee is a premium coffee brand website focused on delivering an immersive storytelling experience through cinematic animations, smooth scrolling, and elegant typography.
+
+Rather than presenting products as a traditional e-commerce catalog, the experience guides visitors through a visual journey that emphasizes craftsmanship, atmosphere, and brand identity.
+
+---
+
+# 🎥 Live Preview
+
+> Add preview GIF here
+
+```
+docs/
+└── preview.gif
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🚀 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Modern App Router architecture
+- Responsive design
+- Smooth scrolling powered by Lenis
+- Cinematic page transitions
+- Framer Motion animations
+- Text Reveal animations
+- Sequence Scroll effects
+- Loading Preloader
+- Product showcase
+- Store Location page
+- Optimized component structure
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+# 📸 Pages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Page | Description |
+|------|-------------|
+| Home | Landing experience |
+| Product | Coffee product showcase |
+| Store Location | Store information |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+# 🛠 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Category | Technology |
+|-----------|------------|
+| Framework | Next.js 16 |
+| Language | TypeScript |
+| UI | React 19 |
+| Styling | Tailwind CSS v4 |
+| Animation | Framer Motion |
+| Smooth Scroll | Lenis |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# calf-coffee
+---
+
+# 📁 Project Structure
+
+```text
+app/
+├── page.tsx
+├── product/
+└── store-location/
+
+components/
+├── Navbar.tsx
+├── Footer.tsx
+├── Preloader.tsx
+├── SequenceScroll.tsx
+└── TextReveal.tsx
+
+lib/
+├── lenis.tsx
+└── utils.ts
+```
+
+---
+
+# ⚙ Installation
+
+```bash
+git clone https://github.com/ulmauull/calf-coffee.git
+
+cd calf-coffee
+
+npm install
+
+npm run dev
+```
+
+---
+
+# 🚀 Production Build
+
+```bash
+npm run build
+
+npm run start
+```
+
+---
+
+# 📱 Responsive
+
+- Desktop
+- Tablet
+- Mobile
+
+---
+
+# ⚡ Performance
+
+Optimized with:
+
+- Next.js App Router
+- Component-based architecture
+- React 19
+- Optimized animations
+- Hardware accelerated motion
+
+---
+
+# 📌 Future Improvements
+
+- CMS Integration
+- Product Management
+- Online Ordering
+- Reservation System
+- Multi Language
+- Dark Mode
+
+---
+
+# 👨‍💻 Author
+
+**Rizki Maulana**
+
+Founder of Nobelux
+
+---
+
+# 📄 License
+
+This project is created for portfolio and demonstration purposes.
