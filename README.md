@@ -4,9 +4,6 @@
 
 ### A cinematic coffee experience built with Next.js, React 19, Framer Motion & Lenis.
 
-<p>
-  <img src="./docs/preview.gif" width="100%" alt="Calf Coffee Preview"/>
-</p>
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=nextdotjs)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
@@ -29,7 +26,9 @@ Rather than presenting products as a traditional e-commerce catalog, the experie
 
 # 🎥 Live Preview
 
-> Add preview GIF here
+<p>
+  <img src="./docs/preview.gif" width="100%" alt="Calf Coffee Preview"/>
+</p>
 
 ```
 docs/
