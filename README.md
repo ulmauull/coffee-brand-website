@@ -5,7 +5,7 @@
 ### A cinematic coffee experience built with Next.js, React 19, Framer Motion & Lenis.
 
 <p>
-  <img src="./docs/preview.gif" width="100%" alt="Calf Coffee Preview"/>
+  <img src="./docs/preview.mp4" width="100%" alt="Calf Coffee Preview"/>
 </p>
 
 ![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=nextdotjs)
